@@ -1,0 +1,34 @@
+{
+  "name": "svelte-mapkit",
+  "version": "0.0.1",
+  "description": "MapKit JS for Svelte Applications",
+  "main": "src/Mapkit.svelte",
+  "svelte": "src/Mapkit.svelte",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JustinVoitel/svelte-mapkit.git"
+  },
+  "keywords": [
+    "map",
+    "svelte",
+    "mapkit",
+    "js",
+    "apple"
+  ],
+  "author": "Justin Voitel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JustinVoitel/svelte-mapkit/issues"
+  },
+  "homepage": "https://github.com/JustinVoitel/svelte-mapkit#readme",
+  "dependencies": {
+    "@beyonk/async-script-loader": "^2.0.0",
+    "svelte": "^3.38.2"
+  },
+  "devDependencies": {
+    "@types/apple-mapkit-js": "^5.50.0"
+  }
+}
